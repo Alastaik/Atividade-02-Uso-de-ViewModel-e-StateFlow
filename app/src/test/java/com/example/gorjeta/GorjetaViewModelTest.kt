@@ -34,8 +34,8 @@ class GorjetaViewModelTest {
     @Test fun aceitaVirgula() {
         val vm = modelo("100,50", "10,5", "3")
         vm.calcular()
-        assertEquals(11.0525, vm.uiState.value.valorGorjeta!!, 0.0001)
-        assertEquals(37.1841666667, vm.uiState.value.valorPorPessoa!!, 0.0001)
+        assertEquals(10.5525, vm.uiState.value.valorGorjeta!!, 0.0001)
+        assertEquals(37.0175, vm.uiState.value.valorPorPessoa!!, 0.0001)
     }
 
     @Test fun aceitaGorjetaZero() {

@@ -48,3 +48,10 @@ chmod +x gradlew
 
 O APK é gerado em `app/build/outputs/apk/debug/app-debug.apk`.
 A entrega compactada deve excluir `.git`, `.gradle`, `build` e `local.properties`.
+
+## Verificação realizada
+
+- 12 testes unitários aprovados.
+- APK debug compilado.
+- Android Lint concluído sem erros; há avisos de versões mais recentes de dependências.
+- Interface ainda não testada em dispositivo ou emulador.
